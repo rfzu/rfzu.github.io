@@ -1,7 +1,7 @@
 # Jekyll configuration
 
 name: Ha! Ha! I'm using the internets!
-description: Ha! Ha! I'm using the internets!
+#description: Ha! Ha! I'm using the internets!
 
 # url is currently only used only for the RSS feed in feed.xml
 url: http://scotte.github.io
@@ -24,10 +24,10 @@ disqus: ''
 comments: true
 
 permalink: /:year/:month/:title
-paginate: 3
+paginate: 10
 
 highlighter: pygments
-markdown: redcarpet
+markdown: kramdown
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
