@@ -3,6 +3,7 @@ layout: post
 title:  "Установка Refinery CMS на Windows 7!"
 date:   2014-10-25 22:00:00
 categories: jekyll update
+comments: true
 ---
 
 Решил сделать тест сайт для одного института используя [Refinery CMS][refinery]. Из коробки она не установилась из-за с ошибки в зависимостях для гемов actionmailer и railties.

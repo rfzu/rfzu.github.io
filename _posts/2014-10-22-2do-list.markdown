@@ -3,6 +3,7 @@ layout: post
 title:  "Internets!"
 date:   2014-10-22 11:25:56
 categories: jekyll update
+comments: true
 ---
 
 По хорошему мне надо сделать с блогом следующее:
