@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Установка Refinery CMS на Windows 7"
+title:  "Установка Refinery CMS на Rails 4.1 в Windows 7"
 date:   2014-10-25 22:00:00
 categories: jekyll update
 comments: true
