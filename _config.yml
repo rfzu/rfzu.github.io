@@ -26,6 +26,9 @@ comments: true
 permalink: /:year/:month/:title
 paginate: 10
 
+highlighter: pygments
+pygments: true
+
 
 
 markdown: kramdown
