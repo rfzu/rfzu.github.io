@@ -6,6 +6,13 @@ categories: jekyll update
 comments: true
 ---
 
+<!-- Put this script tag to the <head> of your page -->
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
+
+<script type="text/javascript">
+  VK.init({apiId: 4616150, onlyWidgets: true});
+</script>
+
 Понял что формата блога мне не достаточно, т.к. записи в блоге — это все же нечто довольно объемное: план на будущее, инструкция как что-то сделать, обзор. Это все здорово, но иногда хочется просто оставить небольшую заметку на полях. Пользоваться для таких вещей Jekyll'ом не очень удобно, ведь ради пары строк приходится совершать множество действий, да и формат у блога все же не тот. Для таких вещей хорошо бы подошел твиттер или мой старый самописный блог, который сейчас лежит на Heroku. Я не смог выбрать что из них лучше, поэтому добавил и то и другое.
 
 ![skrinshoot]({{ localhost:4000 }}/images/blog_n_oldblog.png)
@@ -25,5 +32,11 @@ def allow_iframe_requests
   response.headers.delete('X-Frame-Options')
 end
 {% endhighlight %}
+
+<!-- Put this div tag to the place, where the Like block will be -->
+<div id="vk_like"></div>
+<script type="text/javascript">
+VK.Widgets.Like("vk_like", {type: "button"});
+</script>
 
 [Clickjacking]: [http://habrahabr.ru/post/186616/]
