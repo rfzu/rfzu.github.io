@@ -33,10 +33,14 @@ def allow_iframe_requests
 end
 {% endhighlight %}
 
-<!-- Put this div tag to the place, where the Like block will be -->
+<!-- VK like button -->
 <div id="vk_like"></div>
 <script type="text/javascript">
 VK.Widgets.Like("vk_like", {type: "button"});
 </script>
+
+<!-- Twitter like button -->
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://rfzu.github.io/" data-via="tomatoboard">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 [Clickjacking]: [http://habrahabr.ru/post/186616/]
